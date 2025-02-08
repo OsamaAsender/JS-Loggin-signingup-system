@@ -71,6 +71,7 @@ function addNewUser(user) {
     // Store the updated array in localStorage
     localStorage.setItem("users", JSON.stringify(users));
     window.location.href="index.html";
+    // localStorage.setItem("loggedUser", JSON.stringify(user));
     alert('Account Created Successfully!');
 }
 
